@@ -31,7 +31,10 @@ public class MyStepdefs {
     driver.findElement(By.name("btnK")).submit();
     Thread.sleep(3200);
     }
+    @Then("open LinkedIn Profile by Name")
+    public void openLinkedInProfileByName() {
 
+    }
 
     @Then("Close the page")
     public void closeThePage() {
@@ -45,4 +48,6 @@ public class MyStepdefs {
         driver.quit();
 
     }
+
+
 }
